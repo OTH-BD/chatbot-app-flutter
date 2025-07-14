@@ -18,12 +18,13 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       backgroundColor: Color(0xFFF1F2F6),
       appBar: AppBar(
-        title: Text(
-          "Login Page",
-          style: TextStyle(color: Theme.of(context).indicatorColor),
-        ),
-        backgroundColor: Theme.of(context).primaryColor,
+        title: Center(
+          child: Text("🤖 Login Page ", style: TextStyle(color: Colors.white)),
+        ) ,
+        backgroundColor: Color(0xFF2F3542),
+
       ),
+
       body: Center(
         child: SingleChildScrollView(
           child: Container(
@@ -37,7 +38,7 @@ class _LoginPageState extends State<LoginPage> {
                   color: Colors.grey.shade300,
                   blurRadius: 12,
                   offset: Offset(0, 6),
-                )
+                ),
               ],
             ),
             child: Column(
@@ -110,7 +111,10 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                   width: double.infinity,
                   child: ElevatedButton.icon(
-                    icon: Icon(Icons.login, color: Theme.of(context).indicatorColor),
+                    icon: Icon(
+                      Icons.login,
+                      color: Theme.of(context).indicatorColor,
+                    ),
                     label: Text(
                       "Log In",
                       style: TextStyle(
