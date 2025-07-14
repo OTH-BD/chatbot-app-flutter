@@ -6,9 +6,9 @@ A simple Flutter application that provides a login screen and a chatbot interfac
 
 ## 🖼️ Screenshots
 
-| Login Page | Chatbot Page                                 |
-|------------|----------------------------------------------|
-| ![Login Screenshot](screenshots/login.png) | ![Chatbot Screenshot](screenshots/chat1.png) |
+| Login Page                                  | Chatbot Page                                 |
+|---------------------------------------------|----------------------------------------------|
+| ![Login Screenshot](screenshots/login1.png) | ![Chatbot Screenshot](screenshots/chat1.png) |
 
 ---
 
