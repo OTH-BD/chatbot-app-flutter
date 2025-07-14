@@ -45,11 +45,19 @@ lib/
 ```
 ---
 🛠️ Setup Instructions
+
+## Environment Configuration (.env)
+
+Before running the project, make sure to create a `.env` file at the root of the project.
+This file should contain your OpenAI API key as follows:
+OPENAI_API_KEY=your_api_key_here
+
 ```
 git clone https://github.com/OTH-BD/chatbot-app-flutter.git
 cd chatbot-app-flutter
 
-final apiKey = "YOUR_API_KEY_HERE";
+```env
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 flutter pub get
 
